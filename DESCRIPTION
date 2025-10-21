@@ -1,0 +1,34 @@
+Package: paisaje
+Type: Package
+Title: Spatial and Environmental Data Tools for Landscape Ecology
+Version: 0.1.1
+Authors@R: person(given="Manuel", family="Spínola", role=c("aut","cre"), email="mspinola10@gmail.com", comment=c(ORCID="0000-0002-7839-1908"))
+Maintainer: Manuel Spínola <mspinola10@gmail.com>
+Description: Provides functions for landscape analysis and data retrieval. 
+    The package allows users to download environmental variables from global 
+    datasets (e.g., WorldClim, ESA WorldCover, Nighttime Lights), and to 
+    compute spatial and landscape metrics using a hexagonal grid system 
+    based on the H3 spatial index. It is useful for ecological modeling, 
+    biodiversity studies, and spatial data processing in landscape ecology. 
+    Fick and Hijmans (2017) <doi:10.1002/joc.5086>. 
+    Zanaga et al. (2022) <doi:10.5281/zenodo.7254221>. 
+    Uber Technologies Inc. (2022) "H3: Hexagonal hierarchical spatial index".
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.3.3
+URL: https://manuelspinola.github.io/paisaje/,
+        https://github.com/ManuelSpinola/paisaje
+BugReports: https://github.com/ManuelSpinola/paisaje/issues
+Imports: rlang, dplyr, tidyr, sf, terra, h3jsr, rvest, httr,
+        landscapemetrics, spocc, exactextractr, progress, magrittr
+Suggests: ggplot2, rmarkdown, knitr
+VignetteBuilder: knitr
+Depends: R (>= 4.1.0)
+LazyData: true
+Language: en-US
+NeedsCompilation: no
+Packaged: 2025-10-15 22:48:31 UTC; manuelspinola
+Author: Manuel Spínola [aut, cre] (ORCID:
+    <https://orcid.org/0000-0002-7839-1908>)
+Repository: CRAN
+Date/Publication: 2025-10-21 08:20:02 UTC

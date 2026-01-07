@@ -1,7 +1,7 @@
 Package: paisaje
 Type: Package
 Title: Spatial and Environmental Data Tools for Landscape Ecology
-Version: 0.1.1
+Version: 0.2.0
 Authors@R: person(given="Manuel", family="Spínola", role=c("aut","cre"), email="mspinola10@gmail.com", comment=c(ORCID="0000-0002-7839-1908"))
 Maintainer: Manuel Spínola <mspinola10@gmail.com>
 Description: Provides functions for landscape analysis and data retrieval. 
@@ -19,16 +19,16 @@ RoxygenNote: 7.3.3
 URL: https://manuelspinola.github.io/paisaje/,
         https://github.com/ManuelSpinola/paisaje
 BugReports: https://github.com/ManuelSpinola/paisaje/issues
-Imports: rlang, dplyr, tidyr, sf, terra, h3jsr, rvest, httr,
-        landscapemetrics, spocc, exactextractr, progress, magrittr
+Imports: dplyr, tidyr, sf, terra, h3jsr, rvest, httr, landscapemetrics,
+        spocc, exactextractr, progress, magrittr
 Suggests: ggplot2, rmarkdown, knitr
 VignetteBuilder: knitr
 Depends: R (>= 4.1.0)
 LazyData: true
 Language: en-US
 NeedsCompilation: no
-Packaged: 2025-10-15 22:48:31 UTC; manuelspinola
+Packaged: 2026-01-07 15:33:10 UTC; manuel_nuevo
 Author: Manuel Spínola [aut, cre] (ORCID:
     <https://orcid.org/0000-0002-7839-1908>)
 Repository: CRAN
-Date/Publication: 2025-10-21 08:20:02 UTC
+Date/Publication: 2026-01-07 23:50:02 UTC
